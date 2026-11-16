@@ -1,0 +1,19 @@
+## Interface: 16001
+## Title: Vendor+
+## IconTexture: Interface\AddOns\VendorPlus\Icon
+## Notes: Enhances vendors with search, smart filters, bulk buying, and configurable selling with gear previews and blacklists.
+## Notes-deDE: Erweitert Händler um Suche, intelligente Filter, Großeinkäufe und konfigurierbare Verkäufe mit Ausrüstungsvorschau und Ausschlussliste.
+## Notes-frFR: Améliore les marchands avec recherche, filtres intelligents, achats en quantité et ventes configurables avec aperçu et liste d’exclusion.
+## Notes-esES: Mejora los vendedores con búsqueda, filtros inteligentes, compras en cantidad y ventas configurables con vista previa y lista de exclusión.
+## Notes-esMX: Mejora los vendedores con búsqueda, filtros inteligentes, compras en cantidad y ventas configurables con vista previa y lista de exclusión.
+## Notes-ptBR: Melhora vendedores com busca, filtros inteligentes, compras em quantidade e vendas configuráveis com prévia e lista de exclusão.
+## Notes-ruRU: Добавляет торговцам поиск, умные фильтры, массовые покупки и настраиваемую продажу с просмотром экипировки и списком исключений.
+## Notes-koKR: 상인 창에 검색, 스마트 필터, 대량 구매, 장비 미리보기와 제외 목록을 지원하는 판매 설정을 추가합니다.
+## Notes-zhTW: 為商人新增搜尋、智慧篩選、大量購買，以及附裝備預覽與黑名單的自訂出售功能。
+## Notes-zhCN: 为商人添加搜索、智能筛选、批量购买，以及带装备预览和黑名单的自定义出售功能。
+## Notes-itIT: Migliora i mercanti con ricerca, filtri intelligenti, acquisti in quantità e vendite configurabili con anteprima e lista di esclusione.
+## Author: helnwein
+## Version: 1.0
+## SavedVariablesPerCharacter: VendorPlusDB
+Localization.lua
+VendorPlus.lua
