@@ -12,6 +12,8 @@ A vendor window upgrade for **WoW Forever** by **helnwein**.
 - Review gear six items per page, with tooltips, a live total and a remembered item blacklist.
 - Confirmed sales put junk and consumables first and gear last for Buyback.
 - Shift-click an item in your bags to confirm selling all eligible copies, including the reagent bag.
+- Optional automatic selling when a vendor opens; gear confirmation is preserved.
+- Optional automatic repairs using personal gold at repair-capable vendors.
 - Settings and blacklists are stored per character.
 - Automatic localization through `GetLocale()` with English fallback.
 
@@ -27,7 +29,10 @@ Download a release ZIP and extract its `VendorPlus` folder into your WoW Forever
 - **Shift-click a vendor item**: choose a purchase quantity.
 - **Right-click Sell All Junk**: configure selling rules.
 - **Left-click Sell All Junk**: sell eligible items, with confirmation whenever gear is included.
+- **Right-click Repair All**: configure automatic repairs. Normal left-click repair is unchanged.
 - Uncheck gear in the preview to blacklist its item ID; check it again to allow selling.
+
+Automatic selling and repairs are disabled by default. Repairs require enough personal gold for the full cost; guild funds are not used.
 
 ## Build a release ZIP
 
@@ -38,6 +43,17 @@ python3 tools/package.py
 ```
 
 The ZIP is written to `dist/`. It contains only addon Lua files, the TOC and the icon.
+
+## Tests
+
+Run from the repository root with Lua 5.4 or newer:
+
+```sh
+lua tests/test_localization.lua
+lua tests/test_selling.lua
+```
+
+Tests use mocked game APIs; check visual behavior in WoW Forever too.
 
 ## Publish this repository to GitHub
 

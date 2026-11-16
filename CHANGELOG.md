@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.01 — 2026-11-16
+
+- Add optional automatic selling at the top of the selling menu.
+- Add automatic repairs to the Repair All button’s right-click menu.
+- Keep both options disabled by default and saved per character.
+- Preserve gear confirmation, blacklist rules and sale ordering.
+- Repair only when supported and personal gold covers the full cost.
+- Localize new options and descriptions.
+- Split the implementation into focused Lua modules and add regression tests.
+
 ## 1.0 — 2026-11-16
 
 - Initial release of Vendor+ for WoW Forever.
