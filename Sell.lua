@@ -206,10 +206,11 @@ local function bestPotionLevel(ranks,playerLevel)
 end
 
 local function consumableCandidate(info,db)
-    local _,_,_,_,level,_,_,_,_,_,_,classID,subclassID=C_Item.GetItemInfo(info.hyperlink)
+    local name,_,_,_,level,_,_,_,_,_,_,classID,subclassID=C_Item.GetItemInfo(info.hyperlink)
     if classID~=0 or not level then return false end
     local playerLevel=UnitLevel("player")
     if subclassID==5 then
+        if name and name:lower():find("%f[%a]raw%f[%A]") then return false end
         local spell=C_Item.GetItemSpell(info.hyperlink)
         local food,drink=C_Item.GetItemSpell(117),C_Item.GetItemSpell(159)
         local isFood=spell and food and spell==food

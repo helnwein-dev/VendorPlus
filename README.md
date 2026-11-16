@@ -51,6 +51,7 @@ Run from the repository root with Lua 5.4 or newer:
 ```sh
 lua tests/test_localization.lua
 lua tests/test_selling.lua
+lua tests/test_consumables.lua
 ```
 
 Tests use mocked game APIs; check visual behavior in WoW Forever too.

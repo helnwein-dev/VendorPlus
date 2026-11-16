@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.03 — 2026-11-16
+
+- Exclude food with the word "Raw" in its name from low-level consumable selling, protecting raw cooking fish.
+- Match the word case-insensitively without excluding unrelated names containing those letters.
+
 ## 1.01 — 2026-11-16
 
 - Add optional automatic selling at the top of the selling menu.
