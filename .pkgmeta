@@ -1,0 +1,8 @@
+package-as: VendorPlus
+enable-nolib-creation: no
+ignore:
+  - tests
+  - tools
+  - dist
+  - README.md
+manual-changelog: CHANGELOG.md

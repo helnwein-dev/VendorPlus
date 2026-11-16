@@ -34,6 +34,12 @@ Download a release ZIP and extract its `VendorPlus` folder into your WoW Forever
 
 Automatic selling and repairs are disabled by default. Repairs require enough personal gold for the full cost; guild funds are not used.
 
+## Automatic CurseForge packaging
+
+The root `.pkgmeta` configures the addon folder as `VendorPlus` and excludes tests, tools, local release archives and the README from packaged releases.
+
+Configure the repository webhook using the [official CurseForge automatic packaging guide](https://support.curseforge.com/support/solutions/articles/9000197281-automatic-packaging). Push a version tag to request a release package. A GitHub Release attachment is not required.
+
 ## Build a release ZIP
 
 Requires Python 3 and no third-party packages:

@@ -13,7 +13,7 @@
 ## Notes-zhCN: 为商人添加搜索、智能筛选、批量购买，以及带装备预览和黑名单的自定义出售功能。
 ## Notes-itIT: Migliora i mercanti con ricerca, filtri intelligenti, acquisti in quantità e vendite configurabili con anteprima e lista di esclusione.
 ## Author: helnwein
-## Version: 1.03
+## Version: 1.02
 ## SavedVariablesPerCharacter: VendorPlusDB
 Localization.lua
 VendorPlus.lua

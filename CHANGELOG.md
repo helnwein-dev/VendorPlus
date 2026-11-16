@@ -1,9 +1,10 @@
 # Changelog
 
-## 1.03 — 2026-11-16
+## 1.02 — 2026-11-16
 
 - Exclude food with the word "Raw" in its name from low-level consumable selling, protecting raw cooking fish.
 - Match the word case-insensitively without excluding unrelated names containing those letters.
+- Configure automatic CurseForge packaging with the VendorPlus folder name and development-file exclusions.
 
 ## 1.01 — 2026-11-16
 
